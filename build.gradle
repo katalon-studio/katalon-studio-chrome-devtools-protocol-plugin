@@ -1,0 +1,12 @@
+plugins {
+  id 'java'
+  id "com.katalon.gradle-plugin" version "0.0.7"
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'com.github.kklisura.cdt:cdt-java-client:2.0.0'
+}
